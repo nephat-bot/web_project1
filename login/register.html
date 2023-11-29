@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    
+
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        background-color: #a2e8eb;
+        width: 13cm;
+        height: 18cm;
+        margin-left: 26cm;
+        border-radius: 7px;
+        margin-top: 5cm;
+        border-color: #ccc;
+        border-bottom-width: 2px;
+      "
+    >
+      <h1>Register</h1>
+      <h3 style="margin-left: -5cm;color: blue;">fill in the details:</h3>
+
+      <form id="registerForm" class="form">
+        <div class="form-group">
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name" name="First Name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="last_name">Last Name:</label>
+          <input type="last_name" id="last_name" name="last_name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of birth:</label>
+          <input type="date" id="dob" name="dob" required />
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+
+      <p id="error" class="error"></p>
+    </div>
+    <script>  
+        const registerForm = document.getElementById('registerForm');
+            const errorElement = document.getElementById('error');
+    
+            registerForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+    
+                const email = document.getElementById('email').value;
+                const password = document.getElementById('password').value;
+    
+                
+                    window.location.href = 'welcome.html';
+                
+            });
+        </script>
+
+  </body>
+  
+</html>

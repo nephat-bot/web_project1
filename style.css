@@ -1,0 +1,158 @@
+a {
+    color: black;
+    text-decoration: none;
+
+
+    
+    
+  }
+  div.logodiv {
+    margin-left: 7cm;
+    width: 10cm;
+
+  }
+  div.dashboard {
+    font-size: larger;
+    font-weight: bold;
+    width: 30cm;
+    margin-left: 17cm;
+    margin-top: -1.1cm;
+    margin-bottom: 1.4cm;
+  }
+div.welcomediv {
+margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+  h1 {
+    margin-left: 10cm;
+    padding-top: 3.5cm;
+    color: blue;
+  }
+  h2 {
+    margin-left: 14cm;
+  }
+  div {
+  }
+  p {
+    margin-left: 9cm;
+    font-size: larger;
+  }
+  button {
+    margin-left: 15cm;
+    margin-top: 2.5cm;
+    padding: 5px;
+  }
+  p.dentalcare {
+    margin-left: 1cm;
+  }
+  img.dental {
+    height: 2.9cm;
+    width: 2.9cm;
+    border-radius: 1.4cm;
+    margin-left: 3.9cm;
+  }
+  p.dentalcare {
+    margin-left: 4cm;
+  }
+  p.dentalinfo {
+    margin-left: 2cm;
+  }
+  div.dentaldiv {
+    background-color: white;
+    border: 2px solid white;
+    width: 10cm;
+    margin-left: 2cm;
+  }
+  div.services {
+    background-color: azure;
+  }
+  div.cancercarediv {
+    width: 10cm;
+    margin-top: -7cm;
+    margin-left: 15cm;
+    background-color: white;
+  }
+  img.cancercare {
+    height: 2.9cm;
+    width: 2.9cm;
+    border-radius: 1.4cm;
+    margin-left: 3.9cm;
+  }
+  p.cancercareinfo {
+    margin-left: 2cm;
+  }
+  div.accidentdiv {
+    width: 10cm;
+    margin-left: 30cm;
+    margin-top: -7.5cm;
+    background-color: white;
+  }
+
+  img.accidentimg {
+    height: 2.9cm;
+    width: 2.9cm;
+    border-radius: 1.4cm;
+    margin-left: 3.9cm;
+  }
+  p.accidentinfo {
+    margin-left: 2cm;
+  }
+  div.why {
+    margin-top: 50px;
+    width: 10cm;
+  }
+  img.whyimg {
+    margin-left: 9cm;
+  }
+  p.whyinfo {
+    margin-left: 10px;
+  }
+  div.whyinfodiv {
+    width: 10cm;
+    margin-left: 22cm;
+    margin-top: -9cm;
+  }
+  div.about {
+    height: 8cm;
+    background-color: #444444;
+    color: white;
+    
+  }
+  div.donations {
+    margin-left: 20cm;
+    
+  }
+  div.contact {
+    margin-left: 31cm;
+    margin-top: -5cm;
+  }
+  div.gallery {
+    
+  }
+  table {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      /*border-collapse: collapse;*/
+      /*width: 100%;*/font-size: large;
+      width: 30cm;
+
+    }
+    td,
+    th {
+      border: 10 px solid #dddddd;
+
+      
+    }
+
+    tr:nth-child(odd) {
+      background-color: rgb(0, 183, 255);
+    }
+
+  
